@@ -3,60 +3,77 @@
     <head>
         <meta charset="utf-8">
         <title>Portfólio Web</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Subrayada&family=Montserrat:wght@300;600&family=Roboto+Condensed&display=swap" rel="stylesheet" media="all">
         <style>
             h1 {
                 font-size: 37px;
+                font-family: "Montserrat Subrayada", sans-serif;
             }
             h2 {
-               font-size: 28px;
+               font-size: 26px;
+               line-height: 45px;
+               letter-spacing: -0.5px;
             }
             h3 {
                 font-size: 22px;
+                text-align: center;
+                line-height: 28px;
+                letter-spacing: -0.5px;
             }
            body {
-               font-family: "Roboto", sans-serif;
-               background-color: antiquewhite;
+               font-family: "Montserrat", sans-serif;
+               background-color: rgb(254, 240, 239);
+               color: rgb(70, 18, 32);
            }
-           #quem-sou-eu {
-               color: saddlebrown;
+           p {
+            line-height: 25px;
            }
-           .habilidades-classe {
-               color: saddlebrown;
+           #quem-sou-eu, .habilidades-classe {
+               color: rgb(140, 47, 57);
            }
            .list-links {
-               color: saddlebrown;
+               color: rgb(140, 47, 57);
                font-size: 15px;
-           }
-           .titulo-sub {
-               text-decoration: underline;
+               text-decoration: none;
+               font-weight: 500;
            }
            img { 
-               border-radius: 20px;
+               border-radius: 45px;
+            }
+            .button {
+                border-radius: 4px;
+                background-color: rgb(255, 166, 158);
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                color: rgb(140, 47, 57);
+                font-weight: 600;
+                text-decoration: none;
             }
         </style>
     </head>
     <body>
-        <h1>Portfólio Web</h1>
+        <h1>Portfólio  Web</h1>
 
-        <ul class="titulo-sub">links úteis:
-            <li class="list-links"><a href="#foto">Minha foto.</a></li>
-            <li class="list-links"><a href="#quem-sou-eu">Quem sou eu.</a></li>
-            <li class="list-links"><a href="#habilidades">Minhas habilidades.</a></li>
+        <ul>
+            <li><a class="list-links" href="#foto">Minha foto.</a></li>
+            <li><a class="list-links" href="#quem-sou-eu">Quem sou eu.</a></li>
+            <li><a class="list-links" href="#habilidades">Minhas habilidades.</a></li>
         </ul>
         <h2>Meu nome é Júlia Pôrto Batista</h2>
-        <img id="foto" src="https://avatars2.githubusercontent.com/u/67587758?s=460&u=fe49047c844f93e4c5cea9e93ba39c8e3067ec7c&v=4" alt="Foto de Júlia" width="300">
+        <img id="foto" src="https://avatars2.githubusercontent.com/u/67587758?s=460&u=fe49047c844f93e4c5cea9e93ba39c8e3067ec7c&v=4" alt="Foto de Júlia" width="250">
             <p id="quem-sou-eu">Sou <strong>brasileira</strong>, e moro em Nova Serrana/MG. Me formei em <em>direito</em>,<br>
             mas atualmente trabalho como professora de <em>inglês</em>.<br>
-            Sou estudante de desenvolvimento de software full-stack na <strong>Trybe</strong>.</p>
+            Sou estudante de <strong>desenvolvimento de software</strong> full-stack na Trybe.</p>
 
         <h3 id="habilidades">Minhas habilidades</h3>
             <ul>
                 <li class="habilidades-classe">Fluência em <strong>inglês</strong>, adquirida em vivência no exterior (Malta).</li>
                 <li class="habilidades-classe"><em>Cooperação e compreensão</em>, habilidades extremamente importantes para trabalhar em grupo.</li>
                 <li class="habilidades-classe">Experiência em trabalhos <strong>voluntários</strong> com animais de rua/abandonados.</li>
-                <li class="habilidades-classe">Trabalho realizado em <em>diversas áreas</em>: órgão público, imobiliária, construtora, loja online e escola.</li>
+                <li class="habilidades-classe">Trabalho realizado em <em>diversas áreas</em>: órgão público, imobiliária, construtora, loja online e escola.</li><br>
             </ul>
-            <a target="_blank" href="https://blog.betrybe.com/">Este é o blog da Trybe, interessantíssimo para pessoas da área de tecnologia.</a><br>
-            <a target="_blank" href="https://www.linkedin.com/in/juliaportobatista/">Este é o meu Linkedin!</a>
+            <a class="button" target="_blank" href="https://blog.betrybe.com/">Este é o blog da Trybe, interessantíssimo para pessoas da área de tecnologia.</a><br><br>
+            <a class="button" target="_blank" href="https://www.linkedin.com/in/juliaportobatista/">Este é o meu Linkedin!</a>
 </html>
