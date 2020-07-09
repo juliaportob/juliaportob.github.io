@@ -6,53 +6,69 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Subrayada&family=Montserrat:wght@300;600&family=Roboto+Condensed&display=swap" rel="stylesheet" media="all">
         <link rel="stylesheet" type="text/css" href="./exercicios-aulas/file_css/style.css">
         <style>
-            /*h1 {
-                background-color: rgb(255, 166, 158);
-                font-size: 37px;
-                font-family: "Montserrat Subrayada", sans-serif;
+            h1 {
+             background-color: rgb(255, 166, 158);
+             font-size: 37px;
+             font-family: "Montserrat Subrayada", sans-serif;
+             margin-bottom: 20px;
+             line-height: 50px;
             }
             h2 {
-               font-size: 26px;
-               line-height: 45px;
-               letter-spacing: -0.5px;
+             font-size: 26px;
+             line-height: 50px;
+             letter-spacing: -0.5px;
+             text-align: center;
+             background-color: rgb(255, 166, 158)
             }
             h3 {
-                font-size: 22px;
-                text-align: center;
-                line-height: 28px;
-                letter-spacing: -0.5px;
+             margin-top: 12px;
+             font-size: 22px;
+             line-height: 35px;
+             letter-spacing: -0.5px;
             }
-           body {
-               font-family: "Montserrat", sans-serif;
-               background-color: rgb(254, 240, 239);
-               color: rgb(70, 18, 32);
+            body {
+             font-family: "Montserrat", sans-serif;
+             background-color: rgb(254, 240, 239);
+             color: rgb(70, 18, 32);
             }
             p {
-            line-height: 25px;
+             line-height: 25px;
             }
-            #quem-sou-eu, .habilidades-classe {
-               color: rgb(140, 47, 57);
+            .descricao {
+             color: rgb(140, 47, 57);
+             max-width: 90%;
+             line-height: 30px;
+             padding-top: 25px;
+             padding-bottom: 15px;
+            }
+            .habilidades-classe {
+             color: rgb(140, 47, 57);
+             max-width: 90%;
+             line-height: 30px;
             }
             .list-links {
-               color: rgb(140, 47, 57);
-               font-size: 15px;
-               text-decoration: none;
-               font-weight: 500;
+             color: rgb(140, 47, 57);
+             font-size: 15px;
+             text-decoration: none;
+             font-weight: 500;
             }
-            img { 
-               border-radius: 45px;
+            .foto { 
+             border-radius: 45px;
+             float: left;
+             margin-right: 35px;
+             padding: 15px;
             }
             .button {
-                border-radius: 4px;
-                background-color: rgb(255, 166, 158);
-                padding-top: 5px;
-                padding-bottom: 5px;
-                padding-left: 10px;
-                padding-right: 10px;
-                color: rgb(140, 47, 57);
-                font-weight: 600;
-                text-decoration: none;
-            }*/
+             border-radius: 4px;
+             background-color: rgb(255, 166, 158);
+             padding-top: 5px;
+             padding-bottom: 5px;
+             padding-left: 10px;
+             padding-right: 10px;
+             color: rgb(140, 47, 57);
+             font-weight: 600;
+             text-decoration: none;
+            }
         </style>
     </head>
     <body>
@@ -70,21 +86,24 @@
             <h2>Meu nome é Júlia Pôrto Batista</h2>
         </div>
         <div>
-            <img id="foto" src="https://avatars2.githubusercontent.com/u/67587758?s=460&u=fe49047c844f93e4c5cea9e93ba39c8e3067ec7c&v=4" alt="Foto de Júlia" width="250">
+            <img class="foto" src="https://avatars2.githubusercontent.com/u/67587758?s=460&u=fe49047c844f93e4c5cea9e93ba39c8e3067ec7c&v=4" alt="Foto de Júlia" width="250">
         </div>
         <div class="descricao">
-            <p id="quem-sou-eu">Sou <strong>brasileira</strong>, e moro em Nova Serrana/MG. Me formei em <em>direito</em>,<br>
+            <p>Sou <strong>brasileira</strong>, e moro em Nova Serrana/MG. Me formei em <em>direito</em>,<br>
         mas atualmente trabalho como professora de <em>inglês</em>.<br>
-        Sou estudante de <strong>desenvolvimento de software</strong> full-stack na Trybe.</p>
+        Sou estudante de <strong>desenvolvimento de software</strong> full-stack na Trybe.<br>
+        Meu objetivo é ter uma carreira de <strong>sucesso</strong> na área da tecnologia,<br>
+        e também inspirar outras <em>mulheres</em> a fazerem parte desse mundo.</p><br>
         </div>
-
-        <h3 id="habilidades">Minhas habilidades</h3>
+        <div>
+        <h3>Minhas habilidades:</h3>
             <ul>
                 <li class="habilidades-classe">Fluência em <strong>inglês</strong>, adquirida em vivência no exterior (Malta).</li>
                 <li class="habilidades-classe"><em>Cooperação e compreensão</em>, habilidades extremamente importantes para trabalhar em grupo.</li>
                 <li class="habilidades-classe">Experiência em trabalhos <strong>voluntários</strong> com animais de rua/abandonados.</li>
                 <li class="habilidades-classe">Trabalho realizado em <em>diversas áreas</em>: órgão público, imobiliária, construtora, loja online e escola.</li><br>
             </ul>
+        </div>
             <a class="button" target="_blank" href="https://blog.betrybe.com/">Este é o blog da Trybe, interessantíssimo para pessoas da área de tecnologia.</a><br><br>
             <a class="button" target="_blank" href="https://www.linkedin.com/in/juliaportobatista/">Este é o meu Linkedin!</a>
 </html>
