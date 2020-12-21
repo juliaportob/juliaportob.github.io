@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tarot-vision/static/css/main.fc2defd3.chunk.css",
-    "main.js": "/tarot-vision/static/js/main.858f571e.chunk.js",
-    "main.js.map": "/tarot-vision/static/js/main.858f571e.chunk.js.map",
+    "main.js": "/tarot-vision/static/js/main.dfaab0c4.chunk.js",
+    "main.js.map": "/tarot-vision/static/js/main.dfaab0c4.chunk.js.map",
     "runtime-main.js": "/tarot-vision/static/js/runtime-main.697fc6ec.js",
     "runtime-main.js.map": "/tarot-vision/static/js/runtime-main.697fc6ec.js.map",
     "static/js/2.ae3ac4e2.chunk.js": "/tarot-vision/static/js/2.ae3ac4e2.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.697fc6ec.js",
     "static/js/2.ae3ac4e2.chunk.js",
     "static/css/main.fc2defd3.chunk.css",
-    "static/js/main.858f571e.chunk.js"
+    "static/js/main.dfaab0c4.chunk.js"
   ]
 }
