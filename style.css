@@ -1,85 +1,123 @@
-h1 {
-    background-color: rgb(255, 166, 158);
-    font-size: 37px;
-    font-family: "Montserrat Subrayada", sans-serif;
-    margin-bottom: 35px;
-    padding-left: 10px;
-    line-height: 50px;
-}
-
-h2 {
-    font-size: 26px;
-    line-height: 50px;
-    letter-spacing: -0.5px;
-    text-align: center;
-    background-color: rgb(255, 166, 158);
-    margin-bottom: 35px;
-}
-
-h3 {
-    margin-top: 12px;
-    font-size: 22px;
-    line-height: 35px;
-    letter-spacing: -0.5px;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Red+Hat+Display:wght@500&display=swap');
 
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: rgb(254, 240, 239);
-    color: rgb(70, 18, 32);
+  font-family: 'Raleway', sans-serif;
+  background-image: url(./images/universe.jpg);
+  color: white;
 }
 
-p {
-    line-height: 25px;
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  line-height: 10px;
+  font-size: 260%;
+  padding-top: 5%;
+  letter-spacing: 0.2em;
+  text-shadow: 0px 0px 5px white;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
-.descricao {
-    color: rgb(140, 47, 57);
-    max-width: 90%;
-    line-height: 30px;
-    padding-top: 25px;
-    padding-left: 35px;
-    padding-bottom: 15px;
-    margin-top: 50px;
-}
-
-.habilidades-classe {
-    color: rgb(140, 47, 57);
-    max-width: 90%;
-    line-height: 30px;
-}
-
-.list-links {
-    color: rgb(140, 47, 57);
-    font-size: 17px;
-    text-decoration: none;
-    font-weight: 500;
-    margin-bottom: 35px;
+.main-div {
+  padding-top: 0;
+  width: 65%;
+  margin-left: 17%;
+  background: rgb(49, 34, 68);
 }
 
 .foto { 
-    border-radius: 150px;
-    float: left;
-    margin-right: 25px;
-    margin-bottom: 35px;
-    padding: 5px;
-    background-color: rgb(255, 166, 158);
+  width: 28%;
+  max-width: 200px;
+  border-radius: 150px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid white;
+  box-shadow: 0px 0px 5px white;
 }
 
-.li-pares {
-    list-style-type: square;
+.hello {
+  font-size: 220%;
+  line-height: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3%;
+  margin-left: 3%;
+  flex-direction: row;
+}
+
+.projects-title {
+  text-align: center;
+  margin-left: 5%;
+}
+
+h3 {
+  margin-left: 35px;
+}
+
+p {
+  line-height: 25px;
+}
+
+.descricao {
+  color: white;
+  max-width: 90%;
+  line-height: 30px;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  margin-top: px;
+}
+
+.habilidades-classe {
+  color: rgb(140, 47, 57);
+  max-width: 90%;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400px;
+  font-size: 110%;
+  letter-spacing: 1px;
+}
+
+.div-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
 }
 
 .button {
-    border-radius: 4px;
-    background-color: rgb(255, 166, 158);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 45px;
-    color: rgb(140, 47, 57);
-    font-weight: 600;
-    text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(113, 97, 239);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 45px;
+  margin-left: 30px;
+  color: #6b6470;
+  box-shadow:  0px 0px 5px white;
 }
